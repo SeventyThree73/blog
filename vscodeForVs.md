@@ -156,3 +156,12 @@ if not exist ".vscode" (
 echo Files created successfully.
 ```
 
+## 使用自动化脚本
+* 在VScode中打开项目文件夹
+* 点击屏幕最左下方的圆圈或者三角形（圆圈里面有个`X`,三角形里面有个`！`）
+* 在打开的窗口中点击`TERMINAL`
+* 或者`Ctrl` + `~` 快速打开`TERMINAL`
+* 运行`vs_cpp`即可自动生成`launch.json`和`tasks.json`文件
+* 打开`main`函数所在cpp文件
+* 点击右上角运行按钮（只想右边的三角形）即可编译和调试
+* 如有弹窗跳出，选择`C++ MSVC Debug`
